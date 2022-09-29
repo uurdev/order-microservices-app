@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: wallet-api-gateway
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:4000
+  profiles:
+    active: dev
