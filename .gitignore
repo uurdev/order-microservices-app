@@ -21,3 +21,9 @@ gateway/.mvn/wrapper/maven-wrapper.properties
 gateway/mvnw
 gateway/mvnw.cmd
 gateway/.mvn/wrapper/maven-wrapper.jar
+account-service/.mvn/wrapper/maven-wrapper.jar
+account-service/.mvn/wrapper/maven-wrapper.properties
+account-service/mvnw.cmd
+account-service/mvnw
+account-service/.mvn/wrapper/maven-wrapper.jar
+account-service/.mvn/wrapper/maven-wrapper.jar
