@@ -32,3 +32,8 @@ notification-service/.mvn/wrapper/maven-wrapper.jar
 notification-service/.mvn/wrapper/maven-wrapper.properties
 notification-service/mvnw.cmd
 notification-service/mvnw
+product-service/mvnw
+product-service/mvnw.cmd
+product-service/.mvn/wrapper/maven-wrapper.properties
+product-service/.mvn/wrapper/maven-wrapper.jar
+product-service/.mvn/wrapper/maven-wrapper.jar
