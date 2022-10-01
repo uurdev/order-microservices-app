@@ -37,3 +37,7 @@ product-service/mvnw.cmd
 product-service/.mvn/wrapper/maven-wrapper.properties
 product-service/.mvn/wrapper/maven-wrapper.jar
 product-service/.mvn/wrapper/maven-wrapper.jar
+order-management-service/.mvn/wrapper/maven-wrapper.properties
+order-management-service/mvnw
+order-management-service/.mvn/wrapper/maven-wrapper.jar
+order-management-service/mvnw.cmd
