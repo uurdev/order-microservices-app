@@ -1,4 +1,4 @@
-package com.example.walletcustomerservice.config;
+package com.example.customerservice.config;
 
 /*
     @author uurdev
