@@ -27,3 +27,8 @@ account-service/mvnw.cmd
 account-service/mvnw
 account-service/.mvn/wrapper/maven-wrapper.jar
 account-service/.mvn/wrapper/maven-wrapper.jar
+notification-service/.mvn/wrapper/maven-wrapper.jar
+notification-service/.mvn/wrapper/maven-wrapper.jar
+notification-service/.mvn/wrapper/maven-wrapper.properties
+notification-service/mvnw.cmd
+notification-service/mvnw
