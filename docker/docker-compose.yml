@@ -1,13 +1,17 @@
 version: '3'
 services:
-  eureka-server:
-      image: ugurciftci/service-registry:latest
-      ports:
-        - "8761:8761"
   config-server:
       image: ugurciftci/wallet-config-server:latest
       ports:
         - "4000:4000"
+  consul:
+    image: consul:latest
+    command: agent -server -ui -node=server1 -bootstrap-expect=1 -client=0.0.0.0
+    ports:
+      - "8500:8500"
+      - "8600:8600/udp"
+    networks:
+      - consul-net
   rabbitmq:
     image: rabbitmq:3-management-alpine
     container_name: 'rabbitmq'
@@ -22,4 +26,6 @@ services:
 
 networks:
   rabbitmq_go_net:
+    driver: bridge
+  consul-net:
     driver: bridge
