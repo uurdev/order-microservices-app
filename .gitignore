@@ -41,3 +41,9 @@ order-management-service/.mvn/wrapper/maven-wrapper.properties
 order-management-service/mvnw
 order-management-service/.mvn/wrapper/maven-wrapper.jar
 order-management-service/mvnw.cmd
+auth-server/.mvn/wrapper/maven-wrapper.jar
+auth-server/.mvn/wrapper/maven-wrapper.properties
+auth-server/mvnw.cmd
+auth-server/mvnw
+.DS_Store
+auth-server/.mvn/wrapper/maven-wrapper.jar
